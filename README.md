@@ -22,7 +22,7 @@ To use this in your project, add to your ClojureScript namespace:
 
 ```
 (ns my-cool-namespace 
-  (:require [com.bitpay.bitauth]))
+  (:require [com.bitpay.BitAuth]))
 ```
 
 You can then access the object via an object `js/bitauth`.  The API for `js/bitauth` is described in the [bitauth closure extern](https://github.com/xcthulhu/bitauth-cljs/blob/master/src/bitauth/externs/bitauth.js) file included in this repository.
